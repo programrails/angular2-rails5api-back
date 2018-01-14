@@ -11,7 +11,7 @@ Question.delete_all
 
 question_ids = []
 
-["First", "Second", "Third", "Четвёртый", "Пятый", "Шестой", "Седьмой", "Восьмой", "Девятый", "Десятый"].each do |elem|
+["First", "Second", "Third", "Forth", "Fifth", "Sixth", "Seventh", "Eighth", "Nignth", "Tenth"].each do |elem|
 
 	question_ids << (Question.find_or_create_by title: elem)
 

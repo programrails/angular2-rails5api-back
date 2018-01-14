@@ -40,7 +40,7 @@ class Api::QuestionsController < Api::ApplicationController
   # DELETE /questions/1
   def destroy
     @question.destroy
-    render json: "Вопрос с id=\"#{@question.id}\" успешно удалён".to_json, status: :ok    
+    render json: "The question with id=\"#{@question.id}\" is successfully deleted".to_json, status: :ok
   end
 
   private
